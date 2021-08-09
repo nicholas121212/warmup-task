@@ -161,12 +161,14 @@ body{
 	h2{
 		margin-bottom: 18px;
 	}
-	.gal-par div{
-		position: relative;
+	.box{
+		.wrap{position: relative;}
+		padding: 0 8px;
 		a{
 			position: absolute;
 			left: 0;
 			top: 0;
+			right: 0;
 			width: 100%;
 			height: 100%;
 			display: flex;
@@ -233,3 +235,56 @@ footer{
 	}
 }
 
+.fr-div{
+	position: relative;
+	.slick-dots{
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 0;
+		width: 100%;
+	}
+}
+
+.sliding-item{
+	p{
+		padding: 0 10px;
+		@media(max-width: 768px){
+			padding: 0 10px!important;
+		}
+	}
+}
+
+.services .slick-dots ,.gallery-wrap .slick-dots{ 
+		display: flex;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+		span{
+			position: absolute;
+			display: block;
+			top: 2px;
+			left: 0;
+			width: 100%;
+			font-size: 22px;
+			text-align: center;
+			font-weight: 600;
+			color: $off-black;
+			@media(max-width: 768px){
+				font-size: 15px;
+			}
+		}
+		li{
+			margin: 0 10px;
+			margin-top: 7px;
+			color: $alt-color;
+			button{
+				display: none;
+			}
+			
+		}
+		li.slick-active{
+			color: $off-black;
+		}
+	}
