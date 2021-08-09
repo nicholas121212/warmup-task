@@ -13,6 +13,13 @@ h2 {
 body {
   overflow-x: hidden;
 }
+body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
 body header .navigation-wrap {
   background: #142632;
 }
@@ -53,6 +60,7 @@ body header .badge {
 @media (max-width: 768px) {
   .single-item .each-slide {
     height: 50vh;
+    margin-top: 80px;
   }
 }
 .single-item .each-slide span {
