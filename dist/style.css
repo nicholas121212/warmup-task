@@ -59,7 +59,7 @@ body header .badge {
 }
 @media (max-width: 768px) {
   .single-item .each-slide {
-    height: 50vh;
+    height: auto;
     margin-top: 80px;
   }
 }

@@ -71,7 +71,7 @@ body{
 		height: 100vh;
 		img{height: 100%;}
 		@media (max-width: $medium){
-			height: 50vh;
+			height: auto;
 			margin-top: 80px;
 		}
 		span{
