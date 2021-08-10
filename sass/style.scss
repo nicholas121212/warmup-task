@@ -71,7 +71,7 @@ body{
 		height: 100vh;
 		img{height: 100%;}
 		@media (max-width: $medium){
-			height: auto;
+			height: 50vh;
 			margin-top: 80px;
 		}
 		span{
@@ -84,6 +84,7 @@ body{
 			transform:translate(-50%,-50%);
 			@media(max-width: 768px){
 				font-size: 22px;
+				top: 40%;
 			}
 		}
 	}

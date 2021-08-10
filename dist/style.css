@@ -59,7 +59,7 @@ body header .badge {
 }
 @media (max-width: 768px) {
   .single-item .each-slide {
-    height: auto;
+    height: 50vh;
     margin-top: 80px;
   }
 }
@@ -75,6 +75,7 @@ body header .badge {
 @media (max-width: 768px) {
   .single-item .each-slide span {
     font-size: 22px;
+    top: 40%;
   }
 }
 .single-item .slick-dots {
